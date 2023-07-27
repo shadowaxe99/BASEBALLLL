@@ -1,0 +1,40 @@
+/* Responsive Design CSS */
+
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .dashboard {
+        flex-direction: column;
+    }
+    .task-card, .meeting-card, .performance-card {
+        width: 100%;
+    }
+}
+
+/* Tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+    .dashboard {
+        flex-direction: row;
+    }
+    .task-card, .meeting-card, .performance-card {
+        width: 50%;
+    }
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 901px) {
+    body {
+        font-size: 18px;
+    }
+    .dashboard {
+        flex-direction: row;
+    }
+    .task-card, .meeting-card, .performance-card {
+        width: 33.33%;
+    }
+}

@@ -1,0 +1,28 @@
+/* Light Theme */
+.light-theme {
+    --primary-color: #ffffff;
+    --secondary-color: #f0f0f0;
+    --text-color: #000000;
+    --highlight-color: #007bff;
+}
+
+/* Dark Theme */
+.dark-theme {
+    --primary-color: #242424;
+    --secondary-color: #1a1a1a;
+    --text-color: #ffffff;
+    --highlight-color: #007bff;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.container {
+    background-color: var(--secondary-color);
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
